@@ -1,35 +1,47 @@
 body{
-	background-image: url("bg2.png");
-}
-#menu
-{
-	position: top;
-	position: fixed;
-	width: 100%;
-	height: 40px;
+	/*background-image: url("bg2.png");*/
+	background-image: linear-gradient(to right, aqua , blue);
+	font: 1px Verdana;
+	font-size: 17px;
 	color: aliceblue;
-	background-image: url("bg2.png");
 }
-li {
+#menu {
+	list-style-type: none;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: sticky;
+	background-color: rgb(25, 57, 117);
+  }
+  
+  li {
 	float: left;
-	color: aliceblue;
-}
+  }
+  div.prof_picture{
+	  position: relative;
+	  left: 200px;
+  }
+  li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  li a:hover {
+	background-color: #111;
+  }
 div.gallery {
-	margin: 5px;
+	margin: 1px;
 	border: 1px solid #ccc;
 	float: left;
-	width: 360px;
   }
 div.gallery:hover {
 	border: 1px solid #777;
   }
-  
-div.gallery img {
-	width: 350px;
-  }
-  
 div.desc {
-	padding: 15px;
 	text-align: center;
   }
   .form-popup {
@@ -39,4 +51,43 @@ div.desc {
 	border: 3px solid #f1f1f1;
 	z-index: 9;
   }
+  .open-button {
+	background-color: rgb(32, 23, 156);
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	opacity: 0.8;
+	bottom: 23px;
+	right: 28px;
+	width: 280px;
+  }
+  .res {
+	background-color: rgb(21, 111, 196);
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	opacity: 0.8;
+	width: 280px;
+  }
+  .sendMail {
+	background-color: rgb(53, 62, 197);
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	opacity: 0.8;
+	width: 280px;
+  }
+  .btn-cancel {
+	background-color: rgb(84, 6, 230);
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	opacity: 0.8;
+	width: 280px;
+  }
+  
   

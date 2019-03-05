@@ -18,13 +18,12 @@
 <br/>
 <br/>
 <br/>
+<div id="prof_picture">
+<img id="prof_pic" src="porfile_pic.jpg" alt="Oded Blumenthal" width="190" height="270" align="left">
 <br/>
 <br/>
-<img id="prof_pic" src="porfile_pic.jpg" alt="Oded Blumenthal" width="180" height="250"  align="left">
-<br/>
-<br/>
-<h3 align="center">About me:</h3>
-<p align="center">
+<h3 align="middle">About me:</h3>
+<p id="about_p" align="middle">
     i'm 20 years old soldier-student in the Israeli defence force sience 2016.<br/>
     Student in the Information Systems Engineering department at the Ben-Gurion University of the Negev, Israel.<br/>
     also working as a research assistent of professor <a href="http://www.ise.bgu.ac.il/bws/Home"> Bracha Shapira</a> as Python and machine-learning developer.<br/>
@@ -32,10 +31,7 @@
     so far (third year) i was mostly intrested in: Mechine learing, Parralel programing and Information retrival.<br/>
     my expactions from the course are to know at the end of the course how to build a proffesional web site and get some experiance with industry's programs.
 </p>
-<br/>
-<br/>
-<br/>
-<br/>
+</div>
 <br/>
 <br/>
 <br/>
@@ -47,31 +43,34 @@ my photos
 <br/>
 <div class="gallery">
   <a target="_blank" href="pc1.jpg">
-    <img src="pc1.jpg"  width="600" height="400" >
+    <img src="pc1.jpg"  width="330" height="320" >
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
 
 <div class="gallery">
   <a target="_blank" href="pc2.jpg">
-    <img src="pc2.jpg" width="600" height="400">
+    <img src="pc2.jpg" width="300" height="320">
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
+
+<div class="gallery">
+    <a target="_blank" href="pc4.jpg">
+      <img src="pc4.jpg" width="470" height="320">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
 
 <div class="gallery">
   <a target="_blank" href="pc3.jpg">
-    <img src="pc3.jpg" width="600" height="400">
+    <img src="pc3.jpg" width="370" height="320">
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
-
-<div class="gallery">
-  <a target="_blank" href="pc4.jpg">
-    <img src="pc4.jpg" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
+<br/>
+<br/>
+<br/>
 <br/>
 <br/>
 <br/>
@@ -91,33 +90,21 @@ my photos
 <br/>
 <h3> <u> My playlist</u></h3>
 <br/>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLr34WUZqNpFD1NogaexDibK9JUMth-sL3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="750" height="415" src="https://www.youtube.com/embed/videoseries?list=PLr34WUZqNpFD1NogaexDibK9JUMth-sL3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <br/>
 <br/>
 </section>
 
 <section id="like" class="section" align="center">
 <br/>
-give me a like
+<h3>leave a Like:</h3>
 <br/>
-<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.one.co.il%2F&width=50&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width="400" height="40" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fhttps://odedblu.github.io/webDevelopmentCourse/%2F&width=50&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width="280" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 <br/>
 <br/>
 </section>
 
-<section id="qrcoder" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+<section id="qrcoder" class="section" align="middle">
 <br/>
 <br/>
 <br/>
@@ -125,20 +112,12 @@ give me a like
 scan my code
 <br/>
 <br/>
+<img src="QR_code.png" width="200" height="200" align="middle">
+<br/>
 <br/>
 </section>
 
 <section id="spa" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 <br/>
 <br/>
 <br/>
@@ -151,35 +130,20 @@ ans
 <br/>
 </section>
 
-<section id="contact" class="section">
+<section id="contact" class="section" align="middle">
 <br/>
+<h3>Contact me</h3>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<button class="open-button" onclick="openForm()">Open Form</button>
+<button class="open-button" onclick="openForm()" >Open Form</button>
 <div class="form-popup" id="myForm">
 <form action="mailto:oded1258@gmail.com" method="post" enctype="text/plain">
   E-mail:<br>
   <input type="text" name="mail"><br>
   Comment:<br>
   <input type="text" name="comment" size="50"><br><br>
-  <input type="submit" value="Send">
-  <input type="reset" value="Reset">
-  <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  <input type="submit" class="sendMail" value="Send">
+  <input type="reset" class="res" value="Reset">
+  <button type="button" class="btn-cancel" onclick="closeForm()">Close</button>
   </form>
 </div>
 <br/>
